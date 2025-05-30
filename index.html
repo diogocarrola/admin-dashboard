@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-brand">
+        <img src="assets/icons/view-dashboard.svg" alt="Dashboard Logo" class="sidebar-logo" />
+        <span class="brand-text">Dashboard</span>
+      </div>
+      <ul class="sidebar-nav">
+        <li><img src="assets/icons/home.svg" alt="Home Icon" class="icon" /><span>Home</span></li>
+        <li><img src="assets/icons/card-account-details-outline.svg" alt="Profile Icon" class="icon" /><span>Profile</span></li>
+        <li><img src="assets/icons/message.svg" alt="Messages Icon" class="icon" /><span>Messages</span></li>
+        <li><img src="assets/icons/clock-time-three.svg" alt="History Icon" class="icon" /><span>History</span></li>
+        <li><img src="assets/icons/note-multiple.svg" alt="Tasks Icon" class="icon" /><span>Tasks</span></li>
+        <li><img src="assets/icons/account-group.svg" alt="Communities Icon" class="icon" /><span>Communities</span></li>
+        <li><img src="assets/icons/cog.svg" alt="Settings Icon" class="icon" /><span>Settings</span></li>
+        <li><img src="assets/icons/help-box.svg" alt="Support Icon" class="icon" /><span>Support</span></li>
+        <li><img src="assets/icons/shield-check.svg" alt="Privacy Icon" class="icon" /><span>Privacy</span></li>
+      </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <div class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <div class="search-bar">
+          <img src="assets/icons/magnify.svg" alt="Search Icon" class="icon" />
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div class="header-right">
+          <img src="assets/icons/bell-ring-outline.svg" alt="Notifications" class="icon notification-icon" />
+          <div class="user-info">
+            <img src="https://avatars.githubusercontent.com/u/94233657?v=4" alt="User Avatar" class="user-avatar" />
+            <span class="user-name">Diogo Carrola</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Dashboard greeting -->
+      <section class="dashboard-greeting">
+        <img src="https://avatars.githubusercontent.com/u/94233657?v=4" alt="User Avatar" class="user-avatar-large" />
+        <div class="greeting-text">
+          <p>Hi there,</p>
+          <h1>Diogo Carrola <span class="username">(@diogocarrola)</span></h1>
+        </div>
+        <div class="header-buttons">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </section>
+
+      <!-- Main dashboard sections -->
+      <section class="dashboard-sections">
+        <div class="projects-section">
+          <h2>Your Projects</h2>
+          <!-- Project cards will go here -->
+        </div>
+        <div class="announcements-section">
+          <h2>Announcements</h2>
+          <!-- Announcements list will go here -->
+        </div>
+        <div class="trending-section">
+          <h2>Trending</h2>
+          <!-- Trending list will go here -->
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
